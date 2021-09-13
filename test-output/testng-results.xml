@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33624" started-at="2021-09-13T20:16:28 IST" finished-at="2021-09-13T20:17:02 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@a74868d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="33624" started-at="2021-09-13T20:16:28 IST" finished-at="2021-09-13T20:17:02 IST">
+      <class name="testrunners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunners.TestRunner@a74868d]" name="setUpClass" is-config="true" duration-ms="1014" started-at="2021-09-13T20:16:28 IST" finished-at="2021-09-13T20:16:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@a74868d]" name="runScenario" duration-ms="25770" started-at="2021-09-13T20:16:29 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-13T20:16:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Profile page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Profile Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@a74868d]" name="runScenario" duration-ms="25836" started-at="2021-09-13T20:16:29 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-13T20:16:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Profile page header"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Profile Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@a74868d]" name="runScenario" duration-ms="26101" started-at="2021-09-13T20:16:29 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-13T20:16:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Profile element group section count"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Profile Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@a74868d]" name="runScenario" duration-ms="26754" started-at="2021-09-13T20:16:29 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-13T20:16:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Page Header"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@a74868d]" name="runScenario" duration-ms="25741" started-at="2021-09-13T20:16:29 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-13T20:16:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Page Title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@a74868d]" name="runScenario" duration-ms="26339" started-at="2021-09-13T20:16:29 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-13T20:16:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User registration with different test data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User Registration]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@a74868d]" name="runScenario" duration-ms="25715" started-at="2021-09-13T20:16:29 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-13T20:16:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@a74868d]" name="runScenario" duration-ms="26292" started-at="2021-09-13T20:16:29 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-13T20:16:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User registration with different test data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User Registration]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunners.TestRunner@a74868d]" name="tearDownClass" is-config="true" duration-ms="5808" started-at="2021-09-13T20:16:56 IST" finished-at="2021-09-13T20:17:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
