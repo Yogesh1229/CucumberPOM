@@ -1,5 +1,9 @@
 package testrunners;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 
 //import org.junit.runner.RunWith;
@@ -31,6 +35,27 @@ public class TestRunner extends AbstractTestNGCucumberTests {
     public Object[][] scenarios() {
         return super.scenarios();
     }
+	
+	@BeforeSuite
+	public void beforeSuite() {
+		System.out.println("TestNG - Before Suite");
+	}
+	
+	
+	@BeforeClass
+	public void setUp() {
+		System.out.println("TestNG - Before Class");
+	}
+	
+	@AfterClass
+	public void tearDown() {
+		System.out.println("TestNG - After Class");
+	}
+	
+	@AfterSuite
+	public void afterSuite() {
+		System.out.println("TestNG - After Suite");
+	}
 	
 //	private TestNGCucumberRunner testNGCucumberRunner;
 //	   

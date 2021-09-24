@@ -31,6 +31,7 @@ public class ApplicationHooks {
 		String browserName = prop.getProperty("browser");
 		driverFactory = new DriverFactory();
 		driver = driverFactory.init_driver(browserName);
+		System.out.println("Application hooks - Before");
 	}
 	
 	@After(order = 0)
@@ -40,6 +41,7 @@ public class ApplicationHooks {
 	
 	@After(order = 1)
 	public void tearDown(Scenario se) {
+		System.out.println("Application hooks - after");
 		if(se.isFailed()) {
 			String screenShotName = se.getName().replaceAll(" ", "_");
 			byte[] sourcePath = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
